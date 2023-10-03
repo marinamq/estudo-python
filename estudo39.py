@@ -2,9 +2,11 @@
 # Se ele ainda vai se alistar ao serviço militar / se é a hora de se alistar / Se já passou do tempo do alistamento
 # Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 
+from datetime import date
+
 anoNascimento = int(input('Informe o seu ano de nascimento: '))
 
-anoAtual = 2023
+anoAtual = date.today().year
 
 idade = anoAtual - anoNascimento
 

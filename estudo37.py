@@ -2,18 +2,18 @@
 
 numero = int(input('Digite um número inteiro: '))
 
-print('Escolha o método de conversão: ')
-print('1 - binário')
-print('2 - octal')
-print('3 - hexadecimal')
+print('''Escolha o método de conversão: 
+1 - binário
+2 - octal
+3 - hexadecimal''')
 
 metodo = int(input('Digite o método escolhido: '))
 
 if metodo == 1:
-    print(bin(numero))
+    print(bin(numero)[2:])
 elif metodo == 2:
-    print(oct(numero))
+    print(oct(numero)[2:])
 elif metodo == 3:
-    print(hex(numero))
+    print(hex(numero)[2:])
 else:
     print('Opção incorreta')

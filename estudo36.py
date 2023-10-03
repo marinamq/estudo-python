@@ -7,7 +7,9 @@ tempo = int(input('Informe em quantos anos irá pagar o empréstimo: '))
 
 parcela = (valorCasa / tempo) / 12
 
+
 if parcela > (salario * 0.3):
     print('Empréstimo negado')
 else:
     print('Empréstimo aprovado')
+    print('Parcela mensal de RS {:.2f}'.format(parcela))
