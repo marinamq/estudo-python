@@ -40,3 +40,4 @@ print(frase.split()) # divisão na string onde tem espaços e gera uma lista com
 # Junção
 frase2 = frase.split()
 print('-'.join(frase2)) # Junta as palavras divididas pelo split usando o -
+
