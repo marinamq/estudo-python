@@ -3,6 +3,6 @@
 
 n = float(input('Digite o quanto de dinheiro você tem na carteira: '))
 
-compraDolar = n / 3.27
+compra_dolar = n / 3.27
 
-print('Você consegue comprar {} dólares.'.format(compraDolar))
+print('Você consegue comprar {} dólares.'.format(compra_dolar))

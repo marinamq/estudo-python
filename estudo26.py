@@ -5,7 +5,7 @@
 
 frase = str(input('Digite uma frase: ')).strip()
 repeticao = frase.count('A')
-primeiraPosicao = frase.find('A')
+primeira_posicao = frase.find('A')
 
 print('A letra A aparece {} vezes'.format(frase.count('A')))
 print('A letra A aparece pela primeira vez na posição {}'.format(frase.find('A')+1))

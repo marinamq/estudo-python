@@ -4,11 +4,11 @@
 
 from datetime import date
 
-anoNascimento = int(input('Informe o seu ano de nascimento: '))
+ano_nascimento = int(input('Informe o seu ano de nascimento: '))
 
 anoAtual = date.today().year
 
-idade = anoAtual - anoNascimento
+idade = anoAtual - ano_nascimento
 
 if idade < 18:
     diferenca = 18 - idade

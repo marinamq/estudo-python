@@ -6,11 +6,11 @@ import random
 
 numero = random.randint(0, 5)
 
-tentativaUsuario = int(input('Tente adivinhar o número escolhido de 0 a 5: '))
+tentativa_usuario = int(input('Tente adivinhar o número escolhido de 0 a 5: '))
 
-print('O numero escolhido é {} e você digitou {}'.format(numero, tentativaUsuario))
+print('O numero escolhido é {} e você digitou {}'.format(numero, tentativa_usuario))
 
-if tentativaUsuario == numero:
+if tentativa_usuario == numero:
     print('Você venceu')
 else:
     print('Você perdeu')

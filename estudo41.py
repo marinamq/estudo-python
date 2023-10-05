@@ -7,11 +7,11 @@
 
 from datetime import date
 
-anoNascimento = int(input('Digite o ano do seu nascimento: '))
+ano_nascimento = int(input('Digite o ano do seu nascimento: '))
 
-anoAtual = date.today().year
+ano_atual = date.today().year
 
-idade = anoAtual - anoNascimento
+idade = ano_atual - ano_nascimento
 
 if idade <= 9:
     print('Categoria Mirim')

@@ -4,7 +4,7 @@
 # até 2x no cartao: preço normal
 # 3x ou mais no cartao: +20%
 
-precoNormal = float(input('Digite o preço do produto: '))
+preco_normal = float(input('Digite o preço do produto: '))
 
 print('''Qual a condição de pagamento')
 1 - a vista dinheiro/cheque'
@@ -14,19 +14,19 @@ print('''Qual a condição de pagamento')
 
 print('----' * 10)
 
-formaPagamento = int(input('Digite a opção desejada: '))
+forma_pagamento = int(input('Digite a opção desejada: '))
 
-if formaPagamento == 1:
-    precoFinal = precoNormal * 0.9
-    print('O valor a ser pago é R$ {:.2f}'.format(precoFinal))
-elif formaPagamento == 2:
-    precoFinal = precoNormal * 0.95
-    print('O valor a ser pago é R$ {:.2f}'.format(precoFinal))
-elif formaPagamento == 3:
-    precoFinal = precoNormal
-    print('O valor a ser pago é R$ {:.2f}'.format(precoFinal))
-elif formaPagamento == 4:
-    precoFinal = precoNormal * 1.2
-    print('O valor a ser pago é R$ {:.2f}'.format(precoFinal))
+if forma_pagamento == 1:
+    preco_final = preco_normal * 0.9
+    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+elif forma_pagamento == 2:
+    preco_final = preco_normal * 0.95
+    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+elif forma_pagamento == 3:
+    preco_final = preco_normal
+    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+elif forma_pagamento == 4:
+    preco_final = preco_normal * 1.2
+    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
 else:
     print('Opção inválida')

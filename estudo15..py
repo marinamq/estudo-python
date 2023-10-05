@@ -4,6 +4,6 @@
 quilometragem = float(input('Digite a quantidade de quilômetros percorridos: '))
 dias = float(input('Digite a quantidade de dias que o veículo foi alugado: '))
 
-precoPagar = (dias * 60) + (quilometragem * 0.15)
+preco_pagar = (dias * 60) + (quilometragem * 0.15)
 
-print('O preço a pagar pelo aluguel é R${}.'.format(precoPagar))
+print('O preço a pagar pelo aluguel é R${}.'.format(preco_pagar))

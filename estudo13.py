@@ -2,6 +2,6 @@
 
 salario = float(input('Digite o seu salário atual: '))
 
-novoSalario = salario * 1.15
+novo_salario = salario * 1.15
 
-print('O seu salário com 15% de aumento é de {:.2f}.'.format(novoSalario))
+print('O seu salário com 15% de aumento é de {:.2f}.'.format(novo_salario))
