@@ -5,5 +5,5 @@ n = float(input('Digite o valor em metros: '))
 centimetro = n * 100
 milimetro = n * 1000
 
-print('O valor digitado em centímetros é {} cm.'.format(centimetro))
-print('O valor digitado em milímetros é {} mm.'.format(milimetro))
+print(f'O valor digitado em centímetros é {centimetro} cm.')
+print(f'O valor digitado em milímetros é {milimetro} mm.')

@@ -18,15 +18,15 @@ forma_pagamento = int(input('Digite a opção desejada: '))
 
 if forma_pagamento == 1:
     preco_final = preco_normal * 0.9
-    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+    print(f'O valor a ser pago é R$ {preco_final:.2f}')
 elif forma_pagamento == 2:
     preco_final = preco_normal * 0.95
-    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+    print(f'O valor a ser pago é R$ {preco_final:.2f}')
 elif forma_pagamento == 3:
     preco_final = preco_normal
-    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+    print(f'O valor a ser pago é R$ {preco_final:.2f}')
 elif forma_pagamento == 4:
     preco_final = preco_normal * 1.2
-    print('O valor a ser pago é R$ {:.2f}'.format(preco_final))
+    print(f'O valor a ser pago é R$ {preco_final:.2f}')
 else:
     print('Opção inválida')

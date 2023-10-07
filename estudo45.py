@@ -19,28 +19,28 @@ pc_movimento = (random.choice(moveList))
 
 if movimento == 'Papel':
     if pc_movimento == 'Papel':
-        print('{} X {} = Empate!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Empate!')
     elif pc_movimento == 'Tesoura':
-        print('{} X {} = Você perdeu!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Você perdeu!')
     elif pc_movimento == 'Pedra':
-        print('{} X {} = Você ganhou!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Você ganhou!')
     else:
         print('Jogada Inválida')
 if movimento == 'Tesoura':
     if pc_movimento == 'Papel':
-        print('{} X {} = Você ganhou!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Você ganhou!')
     elif pc_movimento == 'Tesoura':
-        print('{} X {} = Empate!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Empate!')
     elif pc_movimento == 'Pedra':
-        print('{} X {} = Você perdeu!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Você perdeu!')
     else:
         print('Jogada Inválida')
 else:
     if pc_movimento == 'Papel':
-        print('{} X {} = Você perdeu!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Você perdeu!')
     elif pc_movimento == 'Tesoura':
-        print('{} X {} = Você ganhou!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Você ganhou!')
     elif pc_movimento == 'Pedra':
-        print('{} X {} = Empate!'.format(movimento, pc_movimento))
+        print(f'{movimento} X {pc_movimento} = Empate!')
     else:
         print('Jogada Inválida')

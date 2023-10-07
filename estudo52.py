@@ -2,14 +2,14 @@
 num = int(input('Digite um número: '))
 total_divisiveis = 0
 for c in range(1, num + 1):
-    if num % c == 0:            
+    if num % c == 0:
         print('\033[33m', end='')
         total_divisiveis += 1
     else:
         print('\033[31m', end='')
     print('{}'.format(c), end='')
-print('\nO número {} foi divísivel {} vezes'.format(num, total_divisiveis))
+print(f'\nO número {num} foi divísivel {total_divisiveis} vezes')
 if total_divisiveis == 2:
-    print('O número {} é primo'.format(num))
+    print(f'O número {num} é primo')
 else:
-    print('O número {} não é primo'.format(num))
+    print(f'O número {num} não é primo')

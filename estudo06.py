@@ -6,6 +6,6 @@ dobro = n * 2
 triplo = n * 3
 raiz = n ** 0.5
 
-print('O dobro é {}.'.format(dobro))
-print('O triplo é {}.'.format(triplo))
-print('A raíz quadrada é {}'.format(raiz))
+print(f'O dobro é {dobro}.')
+print(f'O triplo é {triplo}.')
+print(f'A raíz quadrada é {raiz}')

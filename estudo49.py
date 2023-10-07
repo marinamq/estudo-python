@@ -5,7 +5,7 @@ n = int(input('Digite um número: '))
 
 for c in range(1, 11):
     r = c * n
-    print('{:2} x {} = {:2}'.format(c, n, r))
+    print(f'{c:2} x {n} = {r:2}')
 
 # print('{} x 1 = {}'.format(n, n*1))
 # print('{} x 2 = {}'.format(n, n*2))

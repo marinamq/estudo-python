@@ -4,4 +4,5 @@ n = int(input('Digite um número: '))
 antecessor = n-1
 sucessor = n+1
 
-print('O antecessor do número digitado é {}. O sucessor do número digitado é {}.'.format(antecessor, sucessor))
+print(
+    f'O antecessor do número digitado é {antecessor}. O sucessor do número digitado é {sucessor}.')

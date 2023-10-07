@@ -12,5 +12,5 @@ for i in range(1, 8):
         total_menor += 1
     else:
         total_maior += 1
-print('{} pessoas menores de idade'.format(total_menor))
-print('{} pessoas maiores de idade'.format(total_maior))
+print(f'{total_menor} pessoas menores de idade')
+print(f'{total_maior} pessoas maiores de idade')

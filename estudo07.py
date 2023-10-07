@@ -5,4 +5,4 @@ nota2 = float(input('Digite a segunda nota: '))
 
 media = (nota1 + nota2) / 2
 
-print('A sua média é {:.2f}.'.format(media))
+print(f'A sua média é {media:.2f}.')

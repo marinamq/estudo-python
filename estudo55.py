@@ -3,7 +3,7 @@ maior_peso = 0
 menor_peso = 0
 
 for i in range(1, 6):
-    peso = float(input('Digite o peso da {}ª pessoa: '.format(i)))
+    peso = float(input(f'Digite o peso da {i}ª pessoa: '))
     if i == 1:
         maior_peso = peso
         menor_peso = peso
