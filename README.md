@@ -1,0 +1,1 @@
+Estudo sobre Python do Curso em Vídeo - Guanabara, referente aos mundos 1, 2 e 3.

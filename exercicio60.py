@@ -12,13 +12,13 @@
 
 # -------------- sem usar o módulo ------------------------
 
-numero = int(input('Digite um número: '))
+numero = int(input("Digite um número: "))
 cont = numero
 fator = 1
 
 while cont > 0:
-    print('{}'.format(cont), end='')
-    print(' x ' if cont > 1 else ' = ', end='')
+    print(f"{cont}", end="")
+    print(" x " if cont > 1 else " = ", end="")
     fator *= cont
     cont -= 1
-print('{}'.format(fator))
+print(f"{fator}")

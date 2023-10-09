@@ -2,10 +2,12 @@
 
 import math
 
-angulo = float(input('Digite o valor do ângulo: '))
+angulo = float(input("Digite o valor do ângulo: "))
 
 cosseno = math.cos(math.radians(angulo))
 seno = math.sin(math.radians(angulo))
 tangente = math.tan(math.radians(angulo))
 
-print('O valor do cosseno é {:.2f}, de seno é {:.2f} e da tangente é {:.2f}.'.format(cosseno, seno, tangente))
+print(
+    f"O valor do cosseno é {cosseno:.2f}, de seno é {seno:.2f} e da tangente é {tangente:.2f}."
+)

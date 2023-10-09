@@ -4,7 +4,7 @@
 
 from datetime import date
 
-ano_nascimento = int(input('Informe o seu ano de nascimento: '))
+ano_nascimento = int(input("Informe o seu ano de nascimento: "))
 
 anoAtual = date.today().year
 
@@ -13,14 +13,14 @@ idade = anoAtual - ano_nascimento
 if idade < 18:
     diferenca = 18 - idade
     if diferenca == 1:
-        print('Ainda falta {} ano para se alistar'.format(diferenca))
+        print(f"Ainda falta {diferenca} ano para se alistar")
     else:
-        print('Ainda faltam {} anos para se alistar'.format(diferenca))
+        print(f"Ainda faltam {diferenca} anos para se alistar")
 elif idade == 18:
-    print('Está na hora de se alistar')
+    print("Está na hora de se alistar")
 else:
     diferenca = idade - 18
     if diferenca == 1:
-        print('Já passou {} ano para se alistar'.format(diferenca))
+        print(f"Já passou {diferenca} ano para se alistar")
     else:
-        print('Já passaram {} anos para se alistar'.format(diferenca))
+        print(f"Já passaram {diferenca} anos para se alistar")

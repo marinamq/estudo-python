@@ -2,13 +2,13 @@
 
 # Exercicio 51 - Desenvolva um programa que leia o primeiro termo e a razao de uma PA. No final, mostre os 10 termos dessa progressão
 
-termo = int(input('Digite o primeiro termo: '))
-razao = int(input('Digite a razao: '))
+termo = int(input("Digite o primeiro termo: "))
+razao = int(input("Digite a razao: "))
 decimo = termo
 cont = 1
 
 while cont <= 10:
-    print('{} -> '.format(termo), end='')
+    print(f"{termo} -> ", end="")
     termo += razao
     cont += 1
-print('Fim')
+print("Fim")

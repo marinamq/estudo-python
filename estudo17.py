@@ -7,4 +7,4 @@ cateto_adjacente = float(input("Digite o comprimento do cateto adjacente: "))
 
 hipotenusa = math.hypot(cateto_oposto, cateto_adjacente)
 
-print('O comprimento da hipotenusa é {:.2f}'.format(hipotenusa))
+print(f"O comprimento da hipotenusa é {hipotenusa:.2f}")

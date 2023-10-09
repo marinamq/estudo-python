@@ -1,11 +1,11 @@
 # Refaça o desafo 09: Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada. Mostrando a tabuada de um número que o usuário escolher, só que agora
 # utilizando o laço FOR
 
-n = int(input('Digite um número: '))
+n = int(input("Digite um número: "))
 
 for c in range(1, 11):
     r = c * n
-    print(f'{c:2} x {n} = {r:2}')
+    print(f"{c:2} x {n} = {r:2}")
 
 # print('{} x 1 = {}'.format(n, n*1))
 # print('{} x 2 = {}'.format(n, n*2))

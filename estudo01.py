@@ -1,2 +1,2 @@
-mensagem = 'Olá, Mundo!'
+mensagem = "Olá, Mundo!"
 print(mensagem)

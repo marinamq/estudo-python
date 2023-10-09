@@ -14,6 +14,5 @@ while tentativa_usuario != numero:
     cont_palpite += 1
     tentativa_usuario = int(input("Tente adivinhar o número escolhido de 0 a 10: "))
 
-print("O numero escolhido é {} e você digitou {}".format(numero, tentativa_usuario))
-print('Você precisou de {} tentativas para acertar'.format(cont_palpite + 1))
-
+print(f"O numero escolhido é {numero} e você digitou {tentativa_usuario}")
+print(f"Você precisou de {cont_palpite + 1} tentativas para acertar")
